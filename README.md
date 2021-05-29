@@ -31,8 +31,7 @@ pip install -r requirements.txt
 Commands:
 
 ```sh
-!case -
-broken fang case price at the moment
+!case - broken fang case price at the moment
 
 !history - Broken fang case price for a day / 3 days / 7 days
 ```
