@@ -31,7 +31,7 @@ class MyClient(discord.Client):
                 for i in range(1, 4):
                     a = prices[i]
                     b = prices[0]
-                    if b > a:
+                    if b < a:
                         different.append("%.2f" % ((a - b) / b * 100))
                     else:
                         different.append("%.2f" % ((b - a) / a * 100))
